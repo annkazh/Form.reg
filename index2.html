@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PPDB SMA Daar En Nisa</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<!-- Header -->
+	<div class="header">
+		<div class="container">
+			<h1 class="logo">Penerimaan Siswa Baru</h1>
+			<p class="sub-logo">SMA Daar En Nisa</p>
+		</div>
+	</div>
+	<!-- end header -->
+
+
+ 	<div class="container cf">
+	<!--Bag. Sidebar  -->
+		<div class="sidebar">
+			<!-- sidebar menu -->
+			<div class="navigasi">
+				<h2>Menu</h2>
+				<ul class="nav">
+					<li>
+						<a href="http://sekolahdaarennisa.sch.id/">Home</a>
+					</li>
+					<li>
+						<a href="http://sekolahdaarennisa.sch.id/index.php?id=profil&kode=55&profil=PPDB%20SMP">Panduan</a>
+					</li>
+					<li>
+						<a href="index2.html">Registrasi</a>
+					</li>
+				</ul>
+			</div>
+			<!-- end sidebar menu -->
+
+			<!--Form-->
+			<div class="login">
+				<h2>Login</h2>
+				<form action="" method="post" accept-charset="utf-8" class="form_login">
+					<input type="text" name="uname" placeholder="Uname">
+					<br>
+					<input type="password" name="password" placeholder="Password">
+					<br>
+					<input type="submit" name="login" value="Masuk">
+				</form>
+
+			</div>
+			<!-- end form -->
+		</div>
+		<!-- end sidebar -->
+
+		<!-- Bag. Maincontent -->
+		<div class="main">
+			<!-- form pendaftaran -->
+			<form action="action.html" id="form_pendaftaran" method="post" accept-charset="utf-8" class="registrasi cf" enctype="multipart/form-data" target="_blank">
+				<h2>Registrasi</h2>
+				<div class="input">
+					<div class="data">
+						<label class="label">Uname:</label>
+						<input type="text" name="Uname">
+					</div>
+					<div class="data">
+						<label class="label">Password:</label>
+						<input type="password" name="Password">
+					</div>
+				</div>
+				<!-- Registrasi -->
+				<div class="siswa">
+					<h2>Formulir Pendaftaran</h2>
+					<div class="input">
+						<div class="data">
+							<label class="label">Nama Calon Siswa:</label>
+							<input type="text" name="nama">
+							<br>
+						</div>
+						<div class="data">
+							<label class="label">Jenis Kelamin:</label>
+							<select name="jenis_kelamin">
+								<option value="0" selected="">--Pilih--</option>
+								<option value="Laki-laki">Laki-laki</option>
+								<option value="Perempuan">Perempuan</option>
+							</select>
+							<br>
+						</div>
+						<div class="data">
+							<label class="label">Agama:</label>
+							<select name="agama">
+								<option value="0" selected="">--Pilih--</option>
+								<option value="islam">Islam</option>
+								<option value="katolik">Katolik</option>
+								<option value="protestan">Protestan</option>
+								<option value="hindu">Hindu</option>
+								<option value="buddha">Buddha</option>
+							</select>
+						</div>
+						<div class="data">
+							<label class="label">Tempat Lahir:</label>
+							<input type="text" name="tmpt_lahir">
+						</div>
+						<div class="data">
+							<label class="label">Tanggal Lahir:</label>
+							<input type="text" name="tgl_lahir" data-field="date">
+						</div>
+						<div class="data">
+							<label class="label">Nama Orang Tua/Wali:</label>
+							<input type="text" name="ortu" >
+						</div>
+						<div class="data">
+							<label class="label">Alamat Siswa:</label>
+							<input type="text" name="alamat">
+						</div>
+						<div class="data">
+							<label class="label">Sekolah Asal:</label>
+							<input type="text" name="sekolah">
+						</div>
+						<div class="data">
+							<label class="label">Pilihan Jurusan</label>
+							<input type="radio" name="jurusan" value="IPA"> IPA
+							<input type="radio" name="jurusan" class="radio" value="IPS"> IPS
+							<br>
+						</div>
+						
+					</div>
+				</div>
+				<div class="siswa">
+					<h2>Metode Pembayaran</h2>
+					<div class="input">
+						<div class="data">
+							<label class="label">Cara Pembayaran:</label>
+							<select name="cara_pembayaran">
+								<option value="0" selected="">--Pilih--</option>
+								<option value="BNI Syariah">BNI Syariah</option>
+								<option value="BTN Syariah">BTN Syariah</option>
+								<option value="Tunai">Tunai</option>
+							</select>
+							<br>
+						</div>
+						<div class="data">
+							<label class="label">Bukti Pembayaran:</label>
+							<input type="file" name="foto">
+						</div>
+					</div>
+				</div>
+				<div class="center">
+					<input type="submit" name="daftar" value="Daftar">
+					<input type="reset" name="reset" value="Reset">
+				</div>
+			</form>
+		</div>
+
+
+		<div id="dtBox"></div>
+	</div>
+	<div class="footer">
+		<footer>
+			<p>Developed by Annisa Kazh</p>
+		</footer>
+	</div>
+</body>
+</html>

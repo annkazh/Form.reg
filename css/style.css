@@ -1,0 +1,212 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	background-color: #fafafa;
+	width: 100%;
+	color: #333;
+}
+.container .sidebar, .container .main{
+	display: inline-block;
+}
+
+.container{
+	width: 960px;
+	margin: auto;
+}
+
+.header{
+	background-color: #fff;;
+	background-image: url('../img/header.png');
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: 715px 0;
+	padding: 20px;
+	border-bottom: 1px solid rgba(0,0,0,.0975);
+	color: #262626;
+}
+
+.logo{
+	font-size: 30px;
+	font-weight: 100em;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.sub-logo{
+	letter-spacing: 19px;
+	font-size: 21px;
+}
+
+.sidebar{
+	margin-top: 20px;
+	background-color: white;
+	width: 250px;
+	padding: auto 15px;
+	box-sizing: border-box;
+	padding-bottom: 50px;
+	border : 1px solid rgba(0,0,0,.0975);
+}
+
+.main, .login, .navigasi{
+	padding: 10px;
+}
+
+.navigasi h2,.login h2{
+	background-color: #E48BDE;
+	padding: 5px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: lighter;
+}
+
+.nav{
+	background-color: #fff;
+	list-style: none;
+	padding-top: 10px;
+}
+
+.nav li{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-bottom: 1px solid #e1e1e1;
+	margin-bottom: 5px;
+}
+
+.nav li a{
+	text-decoration: none;
+	color: #E48BDE;
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.nav li a:hover{
+	color: #C3E3EA;
+}
+
+.login{
+	margin-top: 20px;
+	background-color: #fff;
+	padding-bottom: 20px;
+
+}
+.form_login{
+	margin-top : 5px;
+	margin-left: 25px;
+}
+.form_login input[type=text],
+.form_login input[type=password]{
+	width: 140px;
+	margin: 10px 0 0 10px;
+	display: inline-block;
+	padding: 5px;
+	color: #333;
+
+} 
+
+.form_login input[type=submit]{
+	padding: 5px 10px;
+	margin: 5px 0 0 13px;
+}
+
+.main{
+	width: 680px;
+	background-color: #fff;
+	box-sizing: border-box;
+	float: right;
+	margin-top: 20px; 
+	padding-bottom: 80px;
+	border : 1px solid rgba(0,0,0,.0975);
+}
+
+.registrasi h2{
+	background-color: #E48BDE;
+	padding: 10px;
+	font-weight: lighter;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.registrasi .input{
+	padding: 20px;
+}
+.registrasi .label{
+	width: 200px;
+	display: inline-block;
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.registrasi .data input[type=text],
+.registrasi .data select,
+.registrasi .data input[type=password]{
+	width: 380px;
+	color: #333;
+	height: 30px;
+	display: inline-block;
+	padding: 5px;
+	box-sizing: border-box;
+	font-size: 14px;
+	border : none;
+	background-color: #C3E3EA;
+}
+
+.data{
+	margin-bottom: 5px;
+}
+
+.radio {
+	margin-left: 20px;
+}
+
+ input[type=submit],
+ input[type=reset]{
+	padding:5px 10px ;
+	border : none;
+	margin: 10px 5px;
+	background-color: #E48BDE;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	align-content: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
+.footer{
+	width: 100%;
+	height: 50px;
+	background-color: #fff;
+	margin-top: 50px;
+}
+.footer footer{
+	padding-top: 10px;
+	text-align: center;
+	border-top: 1px solid rgba(0,0,0,.0975);
+	font-size: 14px;
+}
+footer p {
+	line-height: 30px;
+}
